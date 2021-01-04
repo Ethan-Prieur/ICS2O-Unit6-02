@@ -1,7 +1,7 @@
-document.getElementById('btn').addEventListener('click', myFunction);
-function myFunction() {
-  var x = document.getElementById('box').value
-  x = parseInt(x);
+document.getElementById('btn').addEventListener('click', myFunction)
+function myFunction () {
+  let x = document.getElementById('box').value
+  x = parseInt(x)
   if (x > 0) {
     alert('that is a positive number')
   } else if (x < 0) {
